@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, StyleSheet, Dimensions } from 'react-native';
 
-const API_KEY = '1fa2134ca6c365a0f5aa2c1df52cc02f';
+const API_KEY = '';
 
 const App = () => {
   const [city, setCity] = useState('');
