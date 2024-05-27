@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, FlatList, StyleSheet } from 'react-native';
 import { setDoc, doc, db, collection, getDocs } from './firebase'; // Import Firestore functions
 
-const API_KEY = '1fa2134ca6c365a0f5aa2c1df52cc02f';
+const API_KEY = '';
 
 const DataScreen = () => {
   const [todos, setTodos] = useState([]);
